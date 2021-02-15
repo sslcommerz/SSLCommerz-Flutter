@@ -17,10 +17,10 @@ rootProject.allprojects {
         google()
         jcenter()
         //Add this below <plugin_name> is whatever your plugin is called eg. url_launcher
-//        flatDir {
-//            dirs project(':sslcommerz').file('libs')
-//            // e.g. dirs project(':url_launcher').file('libs')  - don't miss the ':'
-//        }
+        flatDir {
+            dirs project(':sslcommerz_flutter').file('libs')
+            // e.g. dirs project(':url_launcher').file('libs')  - don't miss the ':'
+        }
     }
 }
 
@@ -45,6 +45,6 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':sslcommerzlibrary')
+    implementation (name:"sslcommerzlibrary",ext:"aar")
 }
 
