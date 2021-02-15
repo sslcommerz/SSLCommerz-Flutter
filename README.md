@@ -20,7 +20,7 @@ dependencies:
     sslcommerz_flutter: ^0.0.3
 ```
 
-2. Install it
+###### 2. Install it
 
 You can install packages from the command line with Flutter:
 ```
@@ -29,7 +29,7 @@ $ flutter pub get
 
 Alternatively, your editor might support `flutter pub get`. Check the docs for your editor to learn more.
 
-3. Import it
+###### 3. Import it
     
 Now in your Dart code, you can use:
 ```
@@ -64,7 +64,7 @@ import 'package:sslcommerz_flutter/sslcommerz.dart';
 import 'package:sslcommerz_flutter/sslcommerz.g.dart';
 ```
 
-4. Deployment
+###### 4. Deployment
 
 Add this below code to your `app's build gradle`. After modifying the `app's build gradle`, please clean the app by the command `flutter clean` then build the release apk again.
 
@@ -84,7 +84,7 @@ buildTypes {
 
 ## Example
 
-1. example/lib/main.dart
+###### 1. example/lib/main.dart
 
 ```
 import 'package:flutter/material.dart';
@@ -378,11 +378,13 @@ class _MyAppState extends State<MyApp> {
 }
 ```
 
-2. Success Listener
+###### 2. Success Listener
 
 Success callback return below json data at `SSLCTransactionInfoModel model`. Grab data from the model.
 
 `aPIConnect`,`amount`,`bankTranId`,`baseFair`,`cardBrand`,`cardIssuer`,`cardIssuerCountry`,`cardIssuerCountryCode`,`cardNo`,`cardType`,`currencyAmount`,`currencyRate`,`currencyType`,`gwVersion`,`riskLevel`,`riskTitle`,`sessionkey`,`status`,`storeAmount`,`tranDate`,`tranId`,`valId`,`validatedOn`,`valueA`,`valueB`,`valueC`,`valueD`
+
+
 
 
 For any issue, feel free to contact any time.
