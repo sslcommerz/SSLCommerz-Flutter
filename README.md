@@ -5,9 +5,9 @@
 ## Resource
 
 * Package URL: https://pub.dev/packages/sslcommerz_flutter
-* Versions: 0.0.3
-    * Release Date - [Nov 8, 2020]
-    * Change Log - Bug Fixed
+* Versions: 0.0.1
+    * Release Date - 
+    * Change Log - 
     
 
 ## Installation Steps
