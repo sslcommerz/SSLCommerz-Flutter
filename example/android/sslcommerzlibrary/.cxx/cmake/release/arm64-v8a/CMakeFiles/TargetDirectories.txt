@@ -1,0 +1,3 @@
+D:/StudioProjects/SSLCommerzSDK/sslcommerzlibrary/.cxx/cmake/release/arm64-v8a/CMakeFiles/sdklibc.dir
+D:/StudioProjects/SSLCommerzSDK/sslcommerzlibrary/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/StudioProjects/SSLCommerzSDK/sslcommerzlibrary/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

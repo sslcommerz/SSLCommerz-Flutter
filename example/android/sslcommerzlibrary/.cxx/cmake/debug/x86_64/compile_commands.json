@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/StudioProjects/SSLCommerzSDK/sslcommerzlibrary/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Android\\SDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dsdklibc_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\sdklibc.dir\\src\\main\\cpp\\sdklibc.cpp.o -c D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\src\\main\\cpp\\sdklibc.cpp",
+  "file": "D:/StudioProjects/SSLCommerzSDK/sslcommerzlibrary/src/main/cpp/sdklibc.cpp"
+}
+]

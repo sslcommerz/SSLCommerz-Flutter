@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\Android\\SDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\CMakeLists.txt",
+    "D:\\Android\\SDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "sdklibc-Release-armeabi-v7a": {
+      "artifactName": "sdklibc",
+      "buildCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\armeabi-v7a\" sdklibc",
+      "abi": "armeabi-v7a",
+      "output": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libsdklibc.so"
+    }
+  }
+}

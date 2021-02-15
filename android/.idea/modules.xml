@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sslcommerz.iml" filepath="$PROJECT_DIR$/.idea/modules/sslcommerz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sslcommerzlibrary/sslcommerz.sslcommerzlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/sslcommerzlibrary/sslcommerz.sslcommerzlibrary.iml" />
+    </modules>
+  </component>
+</project>

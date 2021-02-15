@@ -1,0 +1,2 @@
+include ':sslcommerzlibrary'
+rootProject.name = 'sslcommerz'

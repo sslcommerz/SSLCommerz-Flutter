@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">SSLCommerzLibrary</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guest">অতিথি</string>
+    <string name="pay">পে</string>
+    <string name="amount_colon">ফি: </string>
+    <string name="additional_fees_colon">অতিরিক্ত ফি: </string>
+    <string name="verify">নিশ্চিত</string>
+    <string name="change_number">নাম্বার পরিবর্তন করুন</string>
+    <string name="resend_otp">OTP পুনরায় পাঠান</string>
+    <string name="skip_this_step">এই ধাপ এড়িয়ে যান</string>
+    <string name="skip">স্কিপ</string>
+    <string name="card_holder_name">কার্ডের বাহকের নাম</string>
+    <string name="other_cards">অন্যান্য কার্ডস</string>
+    <string name="enter_card_number">কার্ড নম্বর লিখুন</string>
+    <string name="enter_expire_date">মাস / বছর</string>
+    <string name="my_cards">আমার কার্ডগুলো</string>
+    <string name="change_card">কার্ড পরিবর্তন করুন</string>
+    <string name="no_emi">ইএমআই ছাড়া</string>
+    <string name="invalid_card">এই কার্ডটি অবৈধ</string>
+    <string name="cards">কার্ডস</string>
+    <string name="mobile_banking">মোবাইল ব্যাংকিং</string>
+    <string name="net_banking">নেট ব্যাংকিং</string>
+    <string name="support">সাপোর্ট</string>
+    <string name="faq">তথ্যাদি</string>
+    <string name="offers">অফার</string>
+    <string name="go_back">ফিরে যাও</string>
+
+    <string name="enter_mobile_number">মোবাইল নাম্বার প্রবেশ করান</string>
+    <string name="welcome_coma">স্বাগতম,</string>
+    <string name="welcome_back_coma">আবারো স্বাগতম,</string>
+    <string name="registered_so_verify">দয়া করে নিশ্চিত করুন এটা আপনার <b>মোবাইল নাম্বার|</b></string>
+    <string name="already_registered_so_verify">আপনি ইতিমধ্যে আমাদের সাথে যুক্ত আছেন, দয়া করে নিশ্চিত করুন এটা আপনার <b>মোবাইল নাম্বার|</b></string>
+    <string name="remember_me">মনে রাখুন</string>
+    <string name="remember_me_warning">ক্লিক করার মাধ্যমে আপনি সম্মতি জানাচ্ছেন আমাদের <font color='#EF6C00'>বিধি এবং শর্তসমূহে</font></string>
+    <string name="verification_code"><b>ওয়ান-টাইম পাসওয়ার্ড (ওটিপি) প্রবেশ করান </b>, যা আপনার ফোন এ পাঠানো হয়েছে</string>
+    <string name="pin_length_must_be">পিন দৈর্ঘ্য ৬ হতে হবে</string>
+    <string name="pay_using_another_card">অন্য কার্ড ব্যবহার করে পরিশোধ করুন</string>
+    <string name="sdk_login">লগইন</string>
+    <string name="sdk_logout">লগআউট</string>
+    <string name="cvc">সিভিসি/সিভিভি</string>
+
+    <string name="no">না</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="delete">মুছে ফেলুন</string>
+    <string name="delete_card">কার্ড মুছুন!!</string>
+    <string name="alert">সতর্কতা</string>
+    <string name="term_condition">শর্তসমূহ</string>
+    <string name="delete_message">আপনি মুছে ফেলতে চান?</string>
+    <string name="support_text">যেকোন তথ্য ও সমস্যা সংক্রান্ত সহায়তার জন্য আমাদের কন্টাক্ট সেন্টার এ যোগাযোগ করুন</string>
+    <string name="notification_error_ssl_cert_invalid">There is a problem with this website\'s security certificate. The security certificate presented by this website was issued for a different website\'s address. Press OK to continue</string>
+    <string name="messenger_text">মেসেঞ্জার এ চ্যাট করতে ক্লিক করুন</string>
+    <string name="email_text">আমাদের ইমেইল করতে ক্লিক করুন</string>
+    <string name="custumer_care_text">প্রতিনিধির সাথে কথা বলতে ডায়াল করুন</string>
+
+    <string name="emi_bank_list_heading">EMI প্রযোজ্য</string>
+    <string name="avail_emi">ইএমআই নিন</string>
+    <string name="no_offer_message">বর্তমানে, কোন অফার নেই। পরে ফিরে চেক করুন।</string>
+    <string name="proceed_without_offer">অফার ছাড়া এগিয়ে যান</string>
+    <string name="internet_connection">ইন্টারনেট সংযোগ পাওয়া যাচ্ছে না।</string>
+    <string name="do_you_want_to_pay_with_emi">আপনি ইএমআই সঙ্গে দিতে চান?</string>
+    <string name="release_to_refresh">রিফ্রেশ করতে ছেড়ে দিন...</string>
+</resources>

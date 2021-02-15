@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\Android\\SDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\CMakeLists.txt",
+    "D:\\Android\\SDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "sdklibc-Release-x86_64": {
+      "artifactName": "sdklibc",
+      "buildCommand": "D:\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\x86_64\" sdklibc",
+      "abi": "x86_64",
+      "output": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libsdklibc.so"
+    }
+  }
+}

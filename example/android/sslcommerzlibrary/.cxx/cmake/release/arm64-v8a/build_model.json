@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\StudioProjects\\SSLCommerzSDK",
+      "sdkFolder": "D:\\Android\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\build\\intermediates",
+      "gradleModulePathName": ":sslcommerzlibrary",
+      "moduleRootFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary",
+      "makeFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\StudioProjects\\SSLCommerzSDK\\.cxx",
+      "cxxFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx",
+      "ndkFolder": "D:\\Android\\sdk\\ndk-bundle",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 18,
+  "cxxBuildFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\arm64-v8a",
+  "jsonFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a",
+  "objFolder": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+  "buildCommandFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cxx\\release\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\arm64-v8a\\compile_commands.json"
+}

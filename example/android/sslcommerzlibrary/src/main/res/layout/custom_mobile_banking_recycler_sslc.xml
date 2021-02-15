@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainMobileBankingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/merchantImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="16dp"
+            android:src="@color/very_light_grey" />
+
+        <ImageView
+            android:id="@+id/selectedContentArea"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:src="@drawable/ic_overlay_tick_sslc"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_off" />
+</LinearLayout><!--
+</androidx.cardview.widget.CardView>-->
