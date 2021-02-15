@@ -1,0 +1,18 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 18 min SDK version: x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found from cmake.dir at \u0027D:\\Android\\sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027D:\\StudioProjects\\SSLCommerzSDK\\sslcommerzlibrary\\.cxx\\cmake\\release\\x86_64\\android_gradle_build.json\u0027 was up-to-date"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems"
+  }
+]

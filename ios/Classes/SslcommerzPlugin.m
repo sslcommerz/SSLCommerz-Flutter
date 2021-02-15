@@ -1,6 +1,6 @@
 #import "SslcommerzPlugin.h"
-#if __has_include(<sslcommerz_flutter/sslcommerz-Swift.h>)
-#import <sslcommerz_flutter/sslcommerz-Swift.h>
+#if __has_include(<sslcommerz/sslcommerz-Swift.h>)
+#import <sslcommerz/sslcommerz-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header
 // is not copied when this plugin is created as a library.

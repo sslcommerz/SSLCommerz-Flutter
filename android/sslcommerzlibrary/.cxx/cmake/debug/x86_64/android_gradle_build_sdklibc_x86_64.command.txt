@@ -1,0 +1,7 @@
+Executable : D:\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\StudioProjects\SSLCommerzSDK\sslcommerzlibrary\.cxx\cmake\debug\x86_64
+sdklibc
+jvmArgs : 
+

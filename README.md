@@ -5,9 +5,9 @@
 ## Resource
 
 * Package URL: https://pub.dev/packages/sslcommerz_flutter
-* Versions: 0.0.1
+* Versions: 0.0.2
     * Release Date - 
-    * Change Log - 
+    * Change Log - Bug Fixed
     
 
 ## Installation Steps
@@ -17,7 +17,7 @@
 Add this to your package's **pubspec.yaml** file:
 ```
 dependencies:
-    sslcommerz_flutter: ^0.0.3
+    sslcommerz_flutter: ^0.0.2
 ```
 
 ###### 2. Install it

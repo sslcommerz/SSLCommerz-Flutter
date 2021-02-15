@@ -1,0 +1,5 @@
+# ninja log v5
+0	191	597678114	CMakeFiles/ssl-native-lib.dir/src/main/cpp/ssl-native-lib.cpp.o	faf907d56a2f425a
+192	357	597678114	../../../../build/intermediates/cmake/release/obj/arm64-v8a/libssl-native-lib.so	cb22e07a8db3db50
+0	167	597755632	CMakeFiles/sdklibc.dir/src/main/cpp/sdklibc.cpp.o	e44fd44ef9fcbe04
+167	297	597755632	../../../../build/intermediates/cmake/release/obj/arm64-v8a/libsdklibc.so	568ee6a07b652a0d

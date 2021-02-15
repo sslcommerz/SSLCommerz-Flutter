@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".view.fragment.SSLCCardFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_card_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_card_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_card_visa"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_visa_new" />
+
+                        <ImageView
+                            android:id="@+id/iv_card_master"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/iv_card_visa"
+                            android:src="@drawable/ic_mastercard_new" />
+
+                        <ImageView
+                            android:id="@+id/iv_card_amex"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@+id/iv_card_master"
+                            android:src="@drawable/ic_amex_new" />
+
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                            android:id="@+id/tv_other_cards"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/other_cards"
+                            android:textColor="@color/tabBackground" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/rectangular_corner_shape_round_transperent_inside_sslc"
+                        android:orientation="horizontal">
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomEdittext
+                            android:id="@+id/et_card_number_ssl"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/enter_card_number"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:textCursorDrawable="@null"
+                            android:maxLength="19"
+                            android:padding="10dp"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:id="@+id/layout_emi_info"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/iv_emi_info"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:padding="7dp"
+                                android:src="@drawable/ic_info_sslc" />
+
+                            <LinearLayout
+                                android:id="@+id/layout_emi"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/custom_btn_clementine"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:padding="5dp">
+
+                                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                                    android:id="@+id/tv_avail_emi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="@string/avail_emi"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/emi_text_size" />
+
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="8dp"
+                                    android:rotation="270"
+                                    android:src="@drawable/ic_back_sslc"
+                                    android:tint="@color/white"
+                                    app:tint="@color/white" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_card_offer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_offer_sslc" />
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                            android:id="@+id/tv_offer_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:text="---" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp">
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomEdittext
+                            android:id="@+id/et_card_expiry_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="40dp"
+                            android:background="@drawable/rectangular_corner_shape_round_transperent_inside_sslc"
+                            android:hint="@string/enter_expire_date"
+                            android:imeOptions="actionNext"
+                            android:inputType="date"
+                            android:maxLength="5"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="60dp"
+                            android:paddingBottom="10dp"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/rectangular_corner_shape_round_transperent_inside_sslc"
+                            android:orientation="horizontal">
+
+                            <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomEdittext
+                                android:id="@+id/et_card_cvc_cvv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/transparent"
+                                android:hint="@string/cvc"
+                                android:imeOptions="actionNext"
+                                android:inputType="numberPassword"
+                                android:maxLength="4"
+                                android:padding="10dp"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="10dp"
+                                android:src="@drawable/ic_cvc_sslc" />
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomEdittext
+                        android:id="@+id/et_card_holder_name_ssl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/rectangular_corner_shape_round_transperent_inside_sslc"
+                        android:hint="@string/card_holder_name"
+                        android:imeOptions="actionDone"
+                        android:inputType="textCapSentences"
+                        android:padding="10dp"
+                        android:textSize="14sp" />
+
+                    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                        android:id="@+id/tv_my_cards"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/my_cards"
+                        android:textColor="@color/colorPrimary" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/rectangular_corner_shape_round_gallery_inside_sslc"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/remember_me_cv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/remember_me" />
+
+                            <View
+                                android:id="@+id/view1"
+                                android:layout_width="1dp"
+                                android:layout_height="20dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:layout_toLeftOf="@+id/iv_more_info"
+                                android:background="@color/very_light_grey"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/iv_more_info"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentRight="true"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:src="@drawable/help"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/very_light_grey" />
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                            android:id="@+id/tv_term_condition"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/remember_me_warning" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_card_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                        android:id="@+id/tv_registered"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/registered_so_verify" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/border_color_selector_sslc"
+                        android:orientation="horizontal">
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomEdittext
+                            android:id="@+id/et_card_mobile_number"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="6"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/enter_mobile_number"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:maxLength="11"
+                            android:padding="10dp"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/bangladesh_sslc" />
+
+
+                        <Button
+                            android:id="@+id/btn_card_mobile_verify"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@drawable/custom_btn_clementine"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/verify"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                        android:id="@+id/tv_card_mobile_format"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:text="Ex. 01XXXXXXXXX"
+                        android:textColor="@color/colorPrimary" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_other_cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_other_cards_go_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:src="@drawable/ic_backk" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_other_cards"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="25dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_save_cards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_save_cards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="45dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_mobile_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/layout_welcome_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                            android:id="@+id/tv_welcome"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="@string/welcome_coma" />
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                            android:id="@+id/tv_customer_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="@string/guest"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="25dp"
+                            android:background="@color/very_light_grey"></View>
+                    </LinearLayout>
+
+                    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                        android:id="@+id/tv_already_registered"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/already_registered_so_verify" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/border_color_selector_sslc"
+                        android:orientation="horizontal">
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomEdittext
+                            android:id="@+id/et_mobile_number_ssl"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="6"
+                            android:background="@android:color/transparent"
+                            android:hint="Enter Your Mobile Number"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:maxLength="11"
+                            android:padding="10dp"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/country_iv"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/bangladesh_sslc" />
+
+
+                        <Button
+                            android:id="@+id/btn_verify"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@drawable/custom_btn_clementine"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/verify"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp">
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                            android:id="@+id/tv_change_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/change_number"
+                            android:textColor="@color/colorPrimary" />
+
+                        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                            android:id="@+id/tv_skip_login"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/skip_this_step"
+                            android:textColor="@color/colorPrimary" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <include layout="@layout/layout_otp_sslc" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/custom_btn_disable_sslc" />
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/custom_btn_clementine_pressed_sslc" />
+    <item
+        android:state_focused="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/custom_btn_clementine_pressed_sslc" />
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/custom_btn_clementine_normal_sslc" />
+</selector>

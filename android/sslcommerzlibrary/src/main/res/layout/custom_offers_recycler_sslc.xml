@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/visaCard"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/visa_card"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/masterCard"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/master_card"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/amexCard"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/amex_card_sslc"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical">
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    app:textStyle="Bold" />
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textSize="11sp"
+                    app:textStyle="Normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0.2"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                android:id="@+id/previousAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AAA"
+                android:textAlignment="center"
+                app:textStyle="Normal" />
+
+            <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                android:id="@+id/discountedAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:textStyle="Bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/white_off" />
+</LinearLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SSLCommerzLibrary</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guest">Guest</string>
+    <string name="pay">PAY</string>
+    <string name="amount_colon">Amount: </string>
+    <string name="additional_fees_colon">Additional Fees: </string>
+    <string name="verify">Verify</string>
+    <string name="change_number">Change Number</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="skip_this_step">Skip This Step</string>
+    <string name="skip">Skip</string>
+    <string name="other_cards">Other Cards</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="enter_expire_date">MM/YY</string>
+    <string name="my_cards">My Cards</string>
+    <string name="change_card">Change Card</string>
+    <string name="no_emi">No EMI</string>
+    <string name="cards">Cards</string>
+    <string name="invalid_card">This card is invalid</string>
+    <string name="mobile_banking">Mobile Banking</string>
+    <string name="net_banking">Net Banking</string>
+    <string name="offers">Offers</string>
+    <string name="faq">FAQ</string>
+    <string name="support">Support</string>
+    <string name="go_back">Go Back</string>
+
+    <string name="enter_mobile_number">Enter Your Mobile Number</string>
+    <string name="welcome_coma">Welcome,</string>
+    <string name="welcome_back_coma">Welcome Back,</string>
+    <string name="registered_so_verify">Please verify your <b>mobile number</b></string>
+    <string name="already_registered_so_verify">You are already register in our system, So please verify your <b>mobile number</b></string>
+    <string name="remember_me">Remember Me</string>
+    <string name="remember_me_warning">By clicking the remember me, you agree to our <font color='#EF6C00'>Terms &amp; Conditions</font></string>
+    <string name="verification_code"><b>Enter the One-Time Password (OTP)</b> you have just received, in your mobile phone</string>
+    <string name="pin_length_must_be">PIN length must be 6</string>
+    <string name="pay_using_another_card">Pay using another card</string>
+    <string name="sdk_login">Login</string>
+    <string name="sdk_logout">Logout</string>
+    <string name="cvc">CVC/CVV</string>
+    <string name="emi_bank_list_heading">EMI is available for</string>
+    <string name="avail_emi">Avail EMI</string>
+    <string name="do_you_want_to_pay_with_emi">Do you want to pay with EMI?</string>
+    <string name="no_offer_message">At present, there are no offers available. Please check back later.</string>
+    <string name="proceed_without_offer">Proceeding without offer</string>
+    <string name="internet_connection">Internet connection is not available.</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="alert">Alert</string>
+    <string name="delete_card">Delete Card!!</string>
+    <string name="term_condition">Terms &amp; Conditions</string>
+    <string name="delete_message">Do you want to Delete?</string>
+    <string name="support_text">We are here to help you with any information and problems through our contact center</string>
+
+    <string name="notification_error_ssl_cert_invalid">There is a problem with this website\'s security certificate. The security certificate presented by this website was issued for a different website\'s address. Press OK to continue</string>
+    <string name="messenger_text">Click here for messenger live chat</string>
+    <string name="email_text">Click here to email us</string>
+    <string name="custumer_care_text">Customer Care Representative</string>
+    <string name="release_to_refresh">Release to refresh...</string>
+</resources>

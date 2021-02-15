@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "411168402030",
+    "firebase_url": "https://commerzsdk.firebaseio.com",
+    "project_id": "commerzsdk",
+    "storage_bucket": "commerzsdk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411168402030:android:68b0fd8a92aa72665ad47f",
+        "android_client_info": {
+          "package_name": "com.sslwireless.sslcommerzlibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411168402030-2u2usq57f254o5h17ufnjqki09p6r0om.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy2QQeOZj9LKja5ZEDOdJMf7K99z1DOhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411168402030-2u2usq57f254o5h17ufnjqki09p6r0om.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

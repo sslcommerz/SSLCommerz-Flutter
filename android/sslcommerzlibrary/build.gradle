@@ -1,0 +1,86 @@
+apply plugin: 'com.android.library'
+/*apply plugin: 'com.google.gms.google-services'*/
+
+
+android {
+    compileSdkVersion 30
+
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        consumerProguardFiles 'proguard-consumer-rules.pro'
+
+//        externalNativeBuild {
+//            cmake {
+//                cppFlags ""
+//            }
+//        }
+
+//        ndk {
+//            abiFilters "arm64-v8a", "armeabi-v7a", "x86", "x86_64"
+//        }
+    }
+
+//    externalNativeBuild {
+//        cmake {
+//            path "CMakeLists.txt"
+//            version "3.10.2"
+//        }
+//    }
+
+    defaultConfig {
+        consumerProguardFiles 'proguard-consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "BASE_URL", '"https://securepay.sslcommerz.com/gwprocess/v4/"'
+            buildConfigField "String", "BASE_URL_SANDBOX", '"https://sandbox.sslcommerz.com/gwprocess/v4/"'
+            buildConfigField "String", "MAIN_LIVE_URL", '"https://api-epay.sslcommerz.com/securepay/api.php/"'
+            buildConfigField "String", "MAIN_SANDBOX_URL", '"https://sandbox.sslcommerz.com/securepay/api.php/"'
+            buildConfigField "String", "MERCHANT_VALIDATOR_SANDBOX_URL", '"https://sandbox.sslcommerz.com/validator/api/"'
+            buildConfigField "String", "MERCHANT_VALIDATOR_LIVE_URL", '"https://securepay.sslcommerz.com/validator/api/"'
+        }
+        debug {
+            buildConfigField "String", "BASE_URL", '"https://securepay.sslcommerz.com/gwprocess/v4/"'
+            buildConfigField "String", "BASE_URL_SANDBOX", '"https://sandbox.sslcommerz.com/gwprocess/v4/"'
+            buildConfigField "String", "MAIN_LIVE_URL", '"https://api-epay.sslcommerz.com/securepay/api.php/"'
+            buildConfigField "String", "MAIN_SANDBOX_URL", '"https://sandbox.sslcommerz.com/securepay/api.php/"'
+            buildConfigField "String", "MERCHANT_VALIDATOR_SANDBOX_URL", '"https://sandbox.sslcommerz.com/validator/api/"'
+            buildConfigField "String", "MERCHANT_VALIDATOR_LIVE_URL", '"https://securepay.sslcommerz.com/validator/api/"'
+        }
+        profile {
+            buildConfigField "String", "BASE_URL", '"https://securepay.sslcommerz.com/gwprocess/v4/"'
+            buildConfigField "String", "BASE_URL_SANDBOX", '"https://sandbox.sslcommerz.com/gwprocess/v4/"'
+            buildConfigField "String", "MAIN_LIVE_URL", '"https://api-epay.sslcommerz.com/securepay/api.php/"'
+            buildConfigField "String", "MAIN_SANDBOX_URL", '"https://sandbox.sslcommerz.com/securepay/api.php/"'
+            buildConfigField "String", "MERCHANT_VALIDATOR_SANDBOX_URL", '"https://sandbox.sslcommerz.com/validator/api/"'
+            buildConfigField "String", "MERCHANT_VALIDATOR_LIVE_URL", '"https://securepay.sslcommerz.com/validator/api/"'
+        }
+    }
+    /*compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }*/
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    //implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    /*implementation 'com.google.firebase:firebase-analytics:17.3.0'*/
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+}

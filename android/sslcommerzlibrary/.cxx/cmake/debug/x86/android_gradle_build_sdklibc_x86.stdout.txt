@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\StudioProjects\SSLCommerzSDK\sslcommerzlibrary\.cxx\cmake\debug\x86'
+ninja: no work to do.
