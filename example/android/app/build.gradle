@@ -22,20 +22,21 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
-    lintOptions {
-        disable 'InvalidPackage'
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
     }
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.sslwireless.sslcommerz_example"
+        applicationId "com.example.test_sslcommerz_sdk"
         minSdkVersion 18
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -45,15 +46,16 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
+            shrinkResources false
+            minifyEnabled false
         }
-    }
-    dependencies {
-        def appcompat_version = "1.2.0"
-        implementation "androidx.appcompat:appcompat:$appcompat_version"
-        implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
     }
 }
 
 flutter {
     source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
