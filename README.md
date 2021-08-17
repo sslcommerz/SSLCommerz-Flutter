@@ -3,9 +3,13 @@
 This is the official **SSLCommerz** flutter plugin for Flutter application integration. For, now it only supports **Android and iOS only**.
 
 
+
+> For any technical query, please communicate via email at integration@sslcommerz.com.
+
 ## Deployment Target
 
-> For iOS : **Deployment Target : 11.0**
+> For iOS : **Deployment Target : 11.0** (Simulator will not work)
+
 > For Android : **minSdkVersion 18**
 
 ## Installation
