@@ -21,7 +21,7 @@ flutter pub add flutter_sslcommerz
 This will add a line like this to your package's pubspec.yaml (and run an implicit dart pub get):
 ```yaml
 dependencies:
-  flutter_sslcommerz: ^2.0.0-nullsafety.0
+  flutter_sslcommerz: ^2.1.0-nullsafety.0
 ```
 
 > Import it
